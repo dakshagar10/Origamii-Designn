@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(91,91,255);
+    background-image:  url("origami.jpeg");
+    
+}
+a:link{
+    color: aquamarine;
+}
+a:visited{
+    color: aquamarine;
+}
+.menu{
+    margin-right: 30px;
+   
+}
+.menu a{
+    margin-left: 20px;
+}
+.image{
+    position: relative;
+}
+
+.image p{
+    position: absolute;
+    transform: translate(-50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+.image:hover p{
+  opacity: 1;  
+}
+.image:hover img{
+opacity: 0.3;
+}
